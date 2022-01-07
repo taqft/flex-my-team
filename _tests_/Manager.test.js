@@ -1,0 +1,1 @@
+// manager card test logic
