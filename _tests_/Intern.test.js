@@ -1,0 +1,1 @@
+// intern card test logic
