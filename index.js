@@ -2,6 +2,10 @@
 const inquirer = require('inquirer');
 // const fs = require('fs');
 
+const Manager = require('./lib/manager');
+const Engineer = require('./lib/engineer');
+const Intern = require('./lib/intern');
+
 // gather the team data for use in generating the team profile
 teamList = [];
 
@@ -118,8 +122,8 @@ addManager = () => inquirer
         .prompt(managerQuestions)
         .then((data) => {
             const { name, id, email, officeNumber } = data;
-            // const teamManager = new Manager(name, id, email, officeNumber);
-            // teamArray.push(teamManager);
+            const teamManager = new Manager(name, id, email, officeNumber);
+            teamList.push(teamManager);
             console.info('\nManager added.\n')
         })
 
@@ -127,8 +131,8 @@ addEngineer = () => inquirer
     .prompt(engineerQuestions)
     .then((response) => {
         const { name, id, email, github } = response;
-        // const newEngineer = new Engineer(name, id, email, github);
-        // teamArray.push(newEngineer);
+        const newEngineer = new Engineer(name, id, email, github);
+        teamList.push(newEngineer);
         console.info('\nEngineer added.\n')
         buildTeam();
     })
@@ -137,8 +141,8 @@ addIntern = () => inquirer
     .prompt(internQuestions)
     .then((response) => {
         const { name, id, email, school } = response;
-        // const newIntern = new Intern(name, id, email, school);
-        // teamArray.push(newIntern);
+        const newIntern = new Intern(name, id, email, school);
+        teamList.push(newIntern);
         console.info('\nIntern added.\n')
         buildTeam();
     })
@@ -146,6 +150,8 @@ addIntern = () => inquirer
 buildTeamProfile = () => {
     console.info('\nBuilding team profile...');
     console.info('file system writefile...\n');
+    console.info(`Team:
+    `, teamList);
     // fs.writefile('./dist/index.html', generateHTML(teamList), e => {
     //     if (e) {
     //         console.error('An error occurred:', e);
