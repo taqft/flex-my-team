@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/theresaqueryforthat/flex-my-team#readme",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "inquirer": "^8.2.0"
   },
   "devDependencies": {}
