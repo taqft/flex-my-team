@@ -1,13 +1,15 @@
 // profile generator logic
 const inquirer = require('inquirer');
-// const fs = require('fs');
+const fs = require('fs');
 
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
 
+const generateTeamProfile = require('./src/generateHTML');
+
 // gather the team data for use in generating the team profile
-teamList = [];
+let teamList = [];
 
 const managerQuestions = [{
         type: 'input',
@@ -147,20 +149,16 @@ addIntern = () => inquirer
         buildTeam();
     })
 
-buildTeamProfile = () => {
-    console.info('\nBuilding team profile...');
-    console.info('file system writefile...\n');
-    console.info(`Team:
-    `, teamList);
-    // fs.writefile('./dist/index.html', generateHTML(teamList), e => {
-    //     if (e) {
-    //         console.error('An error occurred:', e);
-    //         return
-    //     } else {
-    //         console.log(`Team profile successfully generated!
-    //         View your generated page in the /dist/ folder.`)
-    //     }
-    // })
+buildTeamProfile = function () {
+    fs.writeFile('./dist/index.html', generateTeamProfile(teamList), e => {
+        if (e) {
+            console.error('An error occurred:', e);
+            return;
+        } else {
+            console.log(`Team profile successfully generated!
+            View your generated page in the /dist/ folder.`);
+        }
+    });
 }
 
 buildTeam = () => inquirer
