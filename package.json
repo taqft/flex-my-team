@@ -1,0 +1,27 @@
+{
+  "name": "flex-my-team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theresaqueryforthat/flex-my-team.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theresaqueryforthat/flex-my-team/issues"
+  },
+  "homepage": "https://github.com/theresaqueryforthat/flex-my-team#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {}
+}
