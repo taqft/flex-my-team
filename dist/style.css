@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.card {
+    background: linear-gradient(to top left, #0b0bca 5%, #2c7fa8 129%);
+    color: #fff;
+}

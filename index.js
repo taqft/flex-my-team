@@ -2,15 +2,18 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// include needed subclasses to construct a team profile
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
 
+// import the function to generate the team profile
 const generateTeamProfile = require('./src/generateHTML');
 
 // gather the team data for use in generating the team profile
 let teamList = [];
 
+// store questions in arrays to make the later functions more readable
 const managerQuestions = [{
         type: 'input',
         message: 'Please enter the Team Manager\'s name: ex:',
@@ -82,7 +85,7 @@ const engineerQuestions = [{
         message: 'Please enter the Engineer\'s GitHub: ex:',
         name: 'github',
         default () {
-            return '5551236789';
+            return 'theresaqueryforthat';
         }
     }
 ];
@@ -120,6 +123,8 @@ const internQuestions = [{
     }
 ];
 
+// in this setup, addManager only runs once, but can easily be adjusted later
+// to allow for multiple managers, and thus multiple team structure styles
 addManager = () => inquirer
         .prompt(managerQuestions)
         .then((data) => {
@@ -129,6 +134,7 @@ addManager = () => inquirer
             console.info('\nManager added.\n')
         })
 
+// after adding an engineer, call buildTeam() once again to return to the menu
 addEngineer = () => inquirer
     .prompt(engineerQuestions)
     .then((response) => {
@@ -139,6 +145,7 @@ addEngineer = () => inquirer
         buildTeam();
     })
 
+// after adding an intern, call buildTeam() once again to return to the menu
 addIntern = () => inquirer
     .prompt(internQuestions)
     .then((response) => {
@@ -149,6 +156,7 @@ addIntern = () => inquirer
         buildTeam();
     })
 
+// write the finalized team profile to file when user input has finished
 buildTeamProfile = function () {
     fs.writeFile('./dist/index.html', generateTeamProfile(teamList), e => {
         if (e) {
@@ -161,6 +169,9 @@ buildTeamProfile = function () {
     });
 }
 
+// menu options after a manager has been added
+// and before the team is finished being built
+// once user input is complete, generate HTML
 buildTeam = () => inquirer
     .prompt(nextStep)
     .then((response) => {
@@ -174,6 +185,7 @@ buildTeam = () => inquirer
         }
     })
 
+// begin the team profile prompts and menu flow
 init = () => {
     console.log(`
   Hello and welcome to the Flex My Team profile generator!
