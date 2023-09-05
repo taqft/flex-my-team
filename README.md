@@ -6,7 +6,7 @@
 *** to allow for easy automation of the README generation process.
 *** Check it out: https://github.com/othneildrew/Best-README-Template/
 *** For more information about this README template version
-*** see the following repo: https://github.com/theresaqueryforthat/auto-readme
+*** see the following repo: https://github.com/taqft/auto-readme
 -->
 
 <!-- PROJECT SHIELDS -->
@@ -26,7 +26,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/theresaqueryforthat/flex-my-team">
+  <a href="https://github.com/taqft/flex-my-team">
     <img src="assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -35,11 +35,11 @@
   <p align="center">
     A cool app to show off your team's collaboration and contact info!
     <br />
-    <a href="https://theresaqueryforthat.github.io/flex-my-team/">View Demo</a>
+    <a href="https://taqft.github.io/flex-my-team/">View Demo</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/flex-my-team/issues">Report Bug</a>
+    <a href="https://github.com/taqft/flex-my-team/issues">Report Bug</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/flex-my-team/issues">Request Feature</a>
+    <a href="https://github.com/taqft/flex-my-team/issues">Request Feature</a>
   </p>
 </div>
 
@@ -62,7 +62,7 @@
 
 * Built with NodeJS, this simple app allows you to generate an HTML file based on your team's details and contact info. I worked on this to save time when spinning up new project contact pages, and to serve as a base for future improvements and features to make our lives easier.
 
-* This README file was generated with [auto-readme](https://github.com/theresaqueryforthat/auto-readme/)! Go check it out if you're interested in learning more!
+* This README file was generated with [auto-readme](https://github.com/taqft/auto-readme/)! Go check it out if you're interested in learning more!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -136,7 +136,7 @@ Simple testing instructions:
 
 * Have questions?
 * Reach out to me: 
-* https://github.com/theresaqueryforthat/
+* https://github.com/taqft/
 * [ben.koenig512@outlook.com](mailto:ben.koenig512@outlook.com "My contact Email")
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -148,7 +148,7 @@ Simple testing instructions:
 
 * Example file is available under /dist/index.html. Here's a preview:
 
-[![Product Name Screen Shot][product-screenshot]](https://theresaqueryforthat.github.io/flex-my-team/)
+[![Product Name Screen Shot][product-screenshot]](https://taqft.github.io/flex-my-team/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -156,16 +156,16 @@ Simple testing instructions:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/theresaqueryforthat/flex-my-team.svg?style=for-the-badge
-[contributors-url]: https://github.com/theresaqueryforthat/flex-my-team/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/theresaqueryforthat/flex-my-team.svg?style=for-the-badge
-[forks-url]: https://github.com/theresaqueryforthat/flex-my-team/network/members
-[stars-shield]: https://img.shields.io/github/stars/theresaqueryforthat/flex-my-team.svg?style=for-the-badge
-[stars-url]: https://github.com/theresaqueryforthat/flex-my-team/stargazers
-[issues-shield]: https://img.shields.io/github/issues/theresaqueryforthat/flex-my-team.svg?style=for-the-badge
-[issues-url]: https://github.com/theresaqueryforthat/flex-my-team/issues
-[license-shield]: https://img.shields.io/github/license/theresaqueryforthat/flex-my-team.svg?style=for-the-badge&cacheSeconds=3600
-[license-url]: https://github.com/theresaqueryforthat/flex-my-team/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/taqft/flex-my-team.svg?style=for-the-badge
+[contributors-url]: https://github.com/taqft/flex-my-team/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/taqft/flex-my-team.svg?style=for-the-badge
+[forks-url]: https://github.com/taqft/flex-my-team/network/members
+[stars-shield]: https://img.shields.io/github/stars/taqft/flex-my-team.svg?style=for-the-badge
+[stars-url]: https://github.com/taqft/flex-my-team/stargazers
+[issues-shield]: https://img.shields.io/github/issues/taqft/flex-my-team.svg?style=for-the-badge
+[issues-url]: https://github.com/taqft/flex-my-team/issues
+[license-shield]: https://img.shields.io/github/license/taqft/flex-my-team.svg?style=for-the-badge&cacheSeconds=3600
+[license-url]: https://github.com/taqft/flex-my-team/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [product-screenshot]: assets/images/screenshot.png
 [portfolio-shield]: https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white
