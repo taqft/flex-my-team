@@ -137,7 +137,7 @@ Simple testing instructions:
 * Have questions?
 * Reach out to me: 
 * https://github.com/taqft/
-* [ben.koenig512@outlook.com](mailto:ben.koenig512@outlook.com "My contact Email")
+* [ben.koenig@live.com](mailto:ben.koenig@live.com "My contact Email")
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
