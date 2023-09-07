@@ -85,7 +85,7 @@ const engineerQuestions = [{
         message: 'Please enter the Engineer\'s GitHub: ex:',
         name: 'github',
         default () {
-            return 'theresaqueryforthat';
+            return 'taqft';
         }
     }
 ];
