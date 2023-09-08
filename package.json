@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theresaqueryforthat/flex-my-team.git"
+    "url": "git+https://github.com/taqft/flex-my-team.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theresaqueryforthat/flex-my-team/issues"
+    "url": "https://github.com/taqft/flex-my-team/issues"
   },
-  "homepage": "https://github.com/theresaqueryforthat/flex-my-team#readme",
+  "homepage": "https://github.com/taqft/flex-my-team#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
     "inquirer": "^8.2.0"
