@@ -184,7 +184,7 @@ buildTeam = () => inquirer
             return buildTeamProfile();
         }
     })
-
+// now that all functions are defined-
 // begin the team profile prompts and menu flow
 init = () => {
     console.log(`
