@@ -146,7 +146,7 @@ Simple testing instructions:
 
 * Walkthrough video: [LINK](https://puu.sh/IBsVC/dce5464600.mp4 "Walkthrough Video")
 
-* Example file is available under /dist/index.html. Here's a preview:
+* Example file is available under [/dist/index.html](dist/preview.html). Here's a preview:
 
 [![Product Name Screen Shot][product-screenshot]](https://taqft.github.io/flex-my-team/)
 
